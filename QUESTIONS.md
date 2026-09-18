@@ -14,17 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> it's uses <type>/<short-description>, (e.g. feature:add-jumping-power).
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> the required format is <type>: <short summary> <optional longer description>, (e.g docs: add my name and a fun fact).
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> yes this project expect a linked issue before opening a PR
 
 ---
 
@@ -33,7 +33,12 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin	git@github.com:omarahmedZa/Practice-Repository.git (fetch)
+> origin	git@github.com:omarahmedZa/Practice-Repository.git (push)
+> upstream	git@github.com:IbrahimYasserM/Practice-Repository.git (fetch)
+> upstream	git@github.com:IbrahimYasserM/Practice-Repository.git (push)
+> - origin: pushes to my fork
+> - upstream: syncs original repo changes into my fork
 
 ---
 
@@ -42,7 +47,10 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> cde1548 (HEAD -> docs/add-my-name) fix: solve a conflict
+> f5efd79 docs: add my name and a fun fact
+> 983499c (origin/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
+> yes, my commit messages follow the convention from `CONTRIBUTING.md`
 
 ---
 
@@ -50,11 +58,13 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> the `CONTRIBUTORS.md` caused the conflict, becase of the line after ibrahim name line
+> when i added my name this was in the same line nasser add his line, so this make the conflict
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> i resolve it be keeping my line and nasser line and delete all git conflect lines
+> i do this becase nasser add his line for a reason, so i keep it.
 
 ---
 
