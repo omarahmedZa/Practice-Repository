@@ -73,7 +73,8 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> https://github.com/IbrahimYasserM/Practice-Repository/pull/25
+> 4 commits and 3 files
 
 ---
 
@@ -82,10 +83,13 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> I'm forget.
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> fork is a clone on your github account of orginal repo.
+> clone is a local clone of any repo on your local desk.
+> origin is the main repo you  push changes to it.
+> upstream is the original repo you forked that you pull updates from it. 
